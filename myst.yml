@@ -55,6 +55,7 @@ project:
   
   toc:
   - file: index.md
+  - file: supplementary.md
 
   id: isp-micropublication-template
   title: Characterization of large-scale brain connectivity patterns associated with depression in Parkinson’s disease
@@ -68,7 +69,13 @@ project:
   github: https://github.com/impact-scholars/geetha-2026-pd-connectivity-analysis
   bibliography:
   - bib.bib
-   
-  #downloads:
-  #- file: Supplementary Material.md
-  #  title: Supplementary Material
+
+  exports:
+  - format: typst
+    id: typst-pdf
+    template: https://github.com/impact-scholars/isp-lapreprint-typst.git
+    articles:
+    - file: index.md
+      title: null
+    - file: supplementary.md
+      title: null
