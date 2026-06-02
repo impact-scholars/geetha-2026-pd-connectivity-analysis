@@ -1,14 +1,14 @@
 version: 1
 extends:
-- https://raw.githubusercontent.com/impact-scholars/impact-scholars.github.io/v0.1.0/nexus.yml
-- https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.1.0/isp-micropublication-2025.yml
+- https://raw.githubusercontent.com/impact-scholars/impact-scholars.github.io/v0.2.0/nexus.yml
+- https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.2.0/isp-micropublication-2025.yml
 
 project:
   # Uncomment and fill when published
   # doi: 10.5281/zenodo.XXXXXXX
   # date: YYYY-MM-DD
   authors:
-  - name: Iyer, G.
+  - name: Geetha Iyer
     orcid: 0009-0000-1560-5297
     affiliations:
     - Independent Researcher, India
@@ -21,7 +21,7 @@ project:
     - Visualization
     - Writing - original draft
     - Writing - review & editing
-  - name: Huaranca, R.
+  - name: Rosario Huaranca
     orcid: 0009-0003-4794-0649
     affiliations:
     - University of Strasbourg, Strasbourg, France
@@ -34,7 +34,7 @@ project:
     - Visualization
     - Writing - original draft
     - Writing - review & editing
-  - name: Elatries, S.
+  - name: Salma Elatries
     orcid: 0009-0006-4478-8313
     affiliations:
     - Systems and Biomedical Engineering Department, Cairo University, Egypt
@@ -47,11 +47,11 @@ project:
     - Visualization
     - Writing - original draft
     - Writing - review & editing
-  - name: Anwar, A. R.
+  - name: Abdul Rauf Anwar
     affiliations:
     - University Hospital RWTH Aachen, Germany
     roles:
-    - Supervisor
+    - Supervision
   
   toc:
   - file: index.md
@@ -65,7 +65,7 @@ project:
   - functional connectivity
   - geriatric depression scale
   - resting-state fMRI
-  github: https://github.com/RosarioH10062002/geetha-2026-pd-connectivity_analysis
+  github: https://github.com/impact-scholars/geetha-2026-pd-connectivity-analysis
   bibliography:
   - bib.bib
    
