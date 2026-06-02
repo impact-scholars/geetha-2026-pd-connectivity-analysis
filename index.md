@@ -18,7 +18,7 @@ We hypothesized that depression in PD would be associated with altered large-sca
 # Methods
 ## Data & Participants
 
-A total of 90 participants from the [PPMI dataset](https://www.ppmi-info.org/access-data-specimens/download-data), supported by the Michael J. Fox Foundation for Parkinson’s Research [@marek_parkinson_2011], were categorized into Healthy Controls (CTRL), Parkinson’s Disease without Depression (PDND), and Parkinson’s Disease with Depression (PDD), using a Geriatric Depression Scale (GDS) threshold of $\geq 5$ for the PDD group. Data included 3T rs-fMRI, T1-weighted images, demographics, and clinical metrics. To address scanner heterogeneity, we used a harmonization procedure (see Supplementary Material). Acquisition parameters were consistent across sites (TR = 2.5 s, 240 volumes), with comprehensive characteristics detailed in [](#tbl-participants) and [](#tbl-scanners).
+A total of 90 participants from the [PPMI dataset](https://www.ppmi-info.org/access-data-specimens/download-data), supported by the Michael J. Fox Foundation for Parkinson’s Research [@marek_parkinson_2011], were categorized into Healthy Controls (CTRL), Parkinson’s Disease without Depression (PDND), and Parkinson’s Disease with Depression (PDD), using a Geriatric Depression Scale (GDS) threshold of $\geq 5$ for the PDD group. Data included 3T rs-fMRI, T1-weighted images, demographics, and clinical metrics. To address scanner heterogeneity, we used a harmonization procedure (see [](#supplementary)). Acquisition parameters were consistent across sites (TR = 2.5 s, 240 volumes), with comprehensive characteristics detailed in [](#tbl-participants) and [](#tbl-scanners).
 
 
 :::{table} Participant characteristics across groups
@@ -49,7 +49,7 @@ A total of 90 participants from the [PPMI dataset](https://www.ppmi-info.org/acc
 
 ## Preprocessing & ROI Definition
 
-Functional and anatomical MRI data were preprocessed using the default preprocessing pipeline implemented in the CONN toolbox (CONNv25.b; [@nieto-castanon_conn_2022]), which is widely used in functional connectivity studies. Detailed preprocessing steps are provided in the Supplementary Material.
+Functional and anatomical MRI data were preprocessed using the default preprocessing pipeline implemented in the CONN toolbox (CONNv25.b; [@nieto-castanon_conn_2022]), which is widely used in functional connectivity studies. Detailed preprocessing steps are provided in the [](#supplementary).
 
 Following preprocessing, 15 regions of interest (ROIs) spanning the Default Mode Network (DMN), Salience Network (SN), and Frontoparietal Network (FPN) were selected from the CONN network atlas ([](#tbl-roi)). These networks were chosen based on their reported involvement in cognitive and emotional processing and their relevance to non-motor symptoms in Parkinson’s disease [@menon_large-scale_2011; @liao_networks_2021].
 
@@ -82,7 +82,7 @@ Following preprocessing, 15 regions of interest (ROIs) spanning the Default Mode
 
 ## Connectivity Analyses
 
-Connectivity analyses were performed in two stages. An initial seed-based connectivity (SBC) analysis was conducted in a homogeneous subset of participants acquired using the same scanner manufacturer (16 PDD, 20 PDND) to identify connectivity differences across groups. Subsequently, the study was extended to a larger multicenter cohort (N = 90, [](#tbl-scanners)) using ComBat harmonization (see Supplementary Material), where ROI-based functional connectivity and graph analyses were performed to evaluate whether connectivity alterations were associated with depressive symptom severity (GDS).
+Connectivity analyses were performed in two stages. An initial seed-based connectivity (SBC) analysis was conducted in a homogeneous subset of participants acquired using the same scanner manufacturer (16 PDD, 20 PDND) to identify connectivity differences across groups. Subsequently, the study was extended to a larger multicenter cohort (N = 90, [](#tbl-scanners)) using ComBat harmonization (see [](#supplementary)), where ROI-based functional connectivity and graph analyses were performed to evaluate whether connectivity alterations were associated with depressive symptom severity (GDS).
 
 ### Seed-Based Connectivity Analysis
 
@@ -92,7 +92,7 @@ $$
 SBC = \beta_1(Control) + \beta_2(PDND) + \beta_3(PDD) + \beta_4(Outliers) + \epsilon
 $$
 
-where *SBC* represents seed-based connectivity strength and *Control*, *PDND*, and *PDD* serve as indicator variables for each diagnostic category, while *Outliers* accounts for the quality assurance covariate of excluded subjects. Differences across seeds were assessed using a multivariate omnibus F-test. Statistical significance was defined at voxel-level $p < 0.001$ and cluster-level FDR correction ($p_{FDR} < 0.05$) based on Gaussian Random Field theory. Detailed preprocessing steps are provided in the Supplementary Material.
+where *SBC* represents seed-based connectivity strength and *Control*, *PDND*, and *PDD* serve as indicator variables for each diagnostic category, while *Outliers* accounts for the quality assurance covariate of excluded subjects. Differences across seeds were assessed using a multivariate omnibus F-test. Statistical significance was defined at voxel-level $p < 0.001$ and cluster-level FDR correction ($p_{FDR} < 0.05$) based on Gaussian Random Field theory. Detailed preprocessing steps are provided in the [](#supplementary).
 
 ### Functional Connectivity Analysis
 
