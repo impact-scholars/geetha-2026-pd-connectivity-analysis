@@ -4,9 +4,6 @@ extends:
 - https://raw.githubusercontent.com/impact-scholars/isp-actions-config/v0.2.0/isp-micropublication-2025.yml
 
 project:
-  # Uncomment and fill when published
-  # doi: 10.5281/zenodo.XXXXXXX
-  # date: YYYY-MM-DD
   authors:
   - name: Geetha Iyer
     orcid: 0009-0000-1560-5297

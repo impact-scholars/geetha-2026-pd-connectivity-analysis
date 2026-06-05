@@ -114,6 +114,21 @@ Subject-level weighted connectivity matrices served as inputs to construct undir
 
 @figure-main summarizes the main findings.
 
+```{figure} figure.png
+:name: figure-main 
+Overview of mPFC-centered connectivity analyses
+
+**A.** Seed-based connectivity results showing significant clusters associated with mPFC connectivity alterations. Labeled regions indicate significant clusters located in the Left Superior Parietal Lobule (SPL), dorsal Anterior Cingulate Cortex (dACC) / medial Prefrontal Cortex (mPFC), and Right Supramarginal Gyrus / Inferior Parietal Cortex. Spatial coordinates are reported in millimeters along the X, Y, and Z axes. The color bar represents F-values (F(14, 714)) ranging from 2.62 to 4.18.
+\
+**B.** ROI-to-ROI DMN connectivity patterns centered on the mPFC. Line colors represent GLM beta values, showing negative associations between functional connectivity and group progression. For visualization purposes, connection thickness was kept uniform across edges.
+\
+**C.** Nodal level Graph theory analysis results showing significant ROIs and their mean difference between CTRL and PDD groups based on Nodal Clustering, Nodal Participation and Within Module Strength z-score. 
+\
+**D.** Distribution of DMN connectivity scores across CTRL, PD, and PDD groups. Red lines indicate
+group means, highlighting a progressive decrease in mPFC-centered DMN connectivity across groups.
+```
+
+
 Seed-based connectivity analysis revealed significant group-level differences between PDD and PDND, identifying four clusters of altered connectivity involving the left superior parietal lobule (SPL), medial prefrontal cortex (mPFC)/dorsal anterior cingulate cortex (dACC), right middle temporal gyrus (MTG), and right supramarginal gyrus (SMG) ([](#figure-main); [](#tbl-sbc-clusters)). The primary cluster was located in the left intraparietal sulcus (IPS)/SPL (cluster size $k = 209$, $p_{FDR} = 0.001890$), while the remaining clusters involved mPFC/dACC ($k = 101$), MTG ($k = 97$), and SMG ($k = 96$; all $p_{FDR} = 0.028392$). These findings suggest altered large-scale connectivity involving the DMN, salience, and frontoparietal networks in PDD. Altered mPFC/dACC connectivity, regions implicated in self-referential and emotional processing [@levorsen_decomposing_2025; @yun_functional_2022], may reflect depression-related network alterations previously reported in Parkinsonian populations [@su_altered_2022; @liao_networks_2021]. Altered IPS and SMG connectivity may further indicate frontoparietal reorganization associated with disrupted basal ganglia-thalamocortical circuitry [@liu_resting-state_2022].
 
 ROI-based functional connectivity analysis identified convergent alterations within key DMN connections, including mPFC–left LP, mPFC–right LP, and mPFC–PCC ([](#figure-main); [](#tbl-fc-mpfc)). All associations showed negative beta coefficients, indicating reduced DMN connectivity with increasing depressive symptom severity (GDS). Although these findings did not survive multiple comparison correction, they were further explored due to their consistency with previous studies reporting reduced DMN connectivity in major depressive disorder and recurrent depression [@tozzi_reduced_2021; @yan_reduced_2019; @yuan_functional_2011].
@@ -182,20 +197,6 @@ Based on the convergent SBC, ROI-based, and graph-theoretical findings centered 
 Seed-based analysis revealed significant functional connectivity differences between PDD and PDND within DMN and frontoparietal regions in a homogeneous Siemens cohort. Extending this analysis to a larger multicenter cohort through harmonization revealed convergent trends in mPFC-centered DMN connectivity, demonstrating a negative association between depressive symptom severity (GDS) and connectivity measures. Graph-theoretical analysis supported this pattern at the regional level, showing exploratory nodal alterations in DMN and frontoparietal regions without corrected global topology differences. Furthermore, exploration using a composite DMN connectivity score demonstrated a progressive decrease in connectivity across groups, significantly differentiating PDD from control subjects.
 
 Collectively, these findings reveal convergent evidence across seed-based, ROI-based, graph-theoretical, and composite connectivity analyses, highlighting mPFC-centered DMN alterations as a potential marker of depression in Parkinson’s disease. The progressive reduction of DMN connectivity across groups further supports the involvement of large-scale network dysfunction in depression-related processes in PD. Future studies using larger cohorts and more comprehensive brain parcellations are needed to validate its robustness and clinical utility. 
-
-```{figure} figure.png
-:name: figure-main 
-Overview of mPFC-centered connectivity analyses
-
-**A.** Seed-based connectivity results showing significant clusters associated with mPFC connectivity alterations. Labeled regions indicate significant clusters located in the Left Superior Parietal Lobule (SPL), dorsal Anterior Cingulate Cortex (dACC) / medial Prefrontal Cortex (mPFC), and Right Supramarginal Gyrus / Inferior Parietal Cortex. Spatial coordinates are reported in millimeters along the X, Y, and Z axes. The color bar represents F-values (F(14, 714)) ranging from 2.62 to 4.18.
-\
-**B.** ROI-to-ROI DMN connectivity patterns centered on the mPFC. Line colors represent GLM beta values, showing negative associations between functional connectivity and group progression. For visualization purposes, connection thickness was kept uniform across edges.
-\
-**C.** Nodal level Graph theory analysis results showing significant ROIs and their mean difference between CTRL and PDD groups based on Nodal Clustering, Nodal Participation and Within Module Strength z-score. 
-\
-**D.** Distribution of DMN connectivity scores across CTRL, PD, and PDD groups. Red lines indicate
-group means, highlighting a progressive decrease in mPFC-centered DMN connectivity across groups.
-```
 
 ---
 
