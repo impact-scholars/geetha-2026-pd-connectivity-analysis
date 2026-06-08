@@ -49,7 +49,7 @@ project:
     - University Hospital RWTH Aachen, Germany
     roles:
     - Supervision
-  
+
   toc:
   - file: index.md
   - file: supplementary.md
@@ -73,6 +73,8 @@ project:
     template: https://github.com/impact-scholars/isp-lapreprint-typst.git
     articles:
     - file: index.md
-      title: null
+      title:
     - file: supplementary.md
-      title: null
+      title:
+  doi: 10.5281/zenodo.20598837
+  date: 2026-06-08
