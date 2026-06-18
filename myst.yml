@@ -64,6 +64,11 @@ project:
   - geriatric depression scale
   - resting-state fMRI
   github: https://github.com/impact-scholars/geetha-2026-pd-connectivity-analysis
+  options:
+    youtube: https://youtu.be/GHNo40Xe5J0?t=2443
+  downloads:
+  - title: Seminar Presentation
+    url: https://youtu.be/GHNo40Xe5J0?t=2443
   bibliography:
   - bib.bib
 
