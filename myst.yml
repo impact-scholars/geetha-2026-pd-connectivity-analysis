@@ -54,7 +54,7 @@ project:
   - file: index.md
   - file: supplementary.md
 
-  id: isp-micropublication-template
+  id: isp-geetha-2026-pd-connectivity-analysis
   title: Characterization of large-scale brain connectivity patterns associated with depression in Parkinson’s disease
   keywords:
   - PPMI
